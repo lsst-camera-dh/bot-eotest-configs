@@ -1,2 +1,2 @@
-The cfg file is set up to use each of the narrow-band filters.  It may be that we
-want to use only three longest-wavelength filters.
+The cfg file is set up to use the three longest-wavelength narrow-band filters, with two
+acquisitions per filter, each with nominal 10k electrons/pixel
