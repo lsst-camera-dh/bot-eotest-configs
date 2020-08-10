@@ -1,4 +1,5 @@
-#Index of Run4 configuration files* [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step01/bias10.cfg)
+# Index of Run4 configuration files
+* [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step01/bias10.cfg)
 * [step01/bias10\_r22.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step01/bias10_r22.cfg)
 * [step02/dark.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step02/dark.cfg)
 * [step03/pinhole.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step03/pinhole.cfg)

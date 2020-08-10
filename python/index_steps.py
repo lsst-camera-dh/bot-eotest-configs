@@ -12,8 +12,8 @@ files.sort()
 
 f = open(outfile,'w')
 
-f.write('#Index of Run4 configuration files')
-print('#Index of configuration files')
+f.write('# Index of Run4 configuration files\n')
+print('# Index of configuration files')
 for file in files:
     entry = file.split('Run4/')[1]
     entry_esc = entry.replace('_', '\_')
