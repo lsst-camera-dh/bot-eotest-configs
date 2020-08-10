@@ -17,7 +17,7 @@ print('#Index of configuration files')
 for file in files:
     entry = file.split('Run4/')[1]
     entry_esc = entry.replace('_', '\_')
-    f.write('* [' + entry_esc + '](' + link_root + entry + ')')
+    f.write('* [' + entry_esc + '](' + link_root + entry + ')\n')
     print('* [' + entry_esc + '](' + link_root + entry + ')')
 
 f.close()
