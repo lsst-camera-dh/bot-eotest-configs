@@ -2,6 +2,7 @@
 * [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step01/bias10.cfg)
 * [step01/bias10\_r22.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step01/bias10_r22.cfg)
 * [step02/dark.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step02/dark.cfg)
+* [step03/dark.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step03/dark.cfg)
 * [step03/pinhole.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step03/pinhole.cfg)
 * [step03/pinhole\_long\_exp.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step03/pinhole_long_exp.cfg)
 * [step04/fe55\_15minutes.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run4/step04/fe55_15minutes.cfg)
