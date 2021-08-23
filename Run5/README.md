@@ -1,4 +1,4 @@
-# Index of Run5 configuration files
+# Index of configuration files
 * [special/bias\_dark\_flat.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/special/bias_dark_flat.cfg)
 * [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias10.cfg)
 * [step01/bias100.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias100.cfg)
@@ -11,7 +11,6 @@
 * [step06/flat\_single.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step06/flat_single.cfg)
 * [step07/B\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step07/B_protocol.cfg)
 * [step07/C\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step07/C_protocol.cfg)
-* [step08/C\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step08/C_protocol.cfg)
 * [step09/C\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step09/C_protocol.cfg)
 * [step09/D\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step09/D_protocol.cfg)
 * [step09/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step09/bias10.cfg)
@@ -30,7 +29,6 @@
 * [step17/linearityFlatPairs.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs.cfg)
 * [step17/linearityFlatPairs160.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs160.cfg)
 * [step17/linearityFlatPairs\_0bias.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs_0bias.cfg)
-* [step17/linearityFlatPairs\_half.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs_half.cfg)
 * [step18/flats100\_10fluxes\_SDSSg.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step18/flats100_10fluxes_SDSSg.cfg)
 * [step18/flats100\_10fluxes\_SDSSi.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step18/flats100_10fluxes_SDSSi.cfg)
 * [step18/flats100\_10fluxes\_SDSSr.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step18/flats100_10fluxes_SDSSr.cfg)
