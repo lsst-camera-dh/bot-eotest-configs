@@ -1,4 +1,4 @@
-# Index of Run5 configuration files
+# Index of configuration files
 * [special/bias\_dark\_flat.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/special/bias_dark_flat.cfg)
 * [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias10.cfg)
 * [step01/bias100.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias100.cfg)
