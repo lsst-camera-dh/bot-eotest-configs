@@ -1,8 +1,9 @@
-# Index of configuration files
+# Index of Run5 configuration files
 * [special/bias\_dark\_flat.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/special/bias_dark_flat.cfg)
 * [step01/bias10.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias10.cfg)
 * [step01/bias100.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias100.cfg)
 * [step01/bias10\_r22.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias10_r22.cfg)
+* [step01/bias20\_extradelay.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step01/bias20_extradelay.cfg)
 * [step02/dark.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step02/dark.cfg)
 * [step02/dark1sx5.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step02/dark1sx5.cfg)
 * [step04/fe55\_15minutes.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step04/fe55_15minutes.cfg)
