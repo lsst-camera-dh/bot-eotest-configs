@@ -44,6 +44,7 @@
 * [step17/linearityFlatPairs165.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs165.cfg)
 * [step17/linearityFlatPairsTurnOff.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairsTurnOff.cfg)
 * [step17/linearityFlatPairsTurnOffFocused.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairsTurnOffFocused.cfg)
+* [step17/linearityFlatPairsTurnOffFocused\_extrapairs.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairsTurnOffFocused_extrapairs.cfg)
 * [step17/linearityFlatPairs\_0bias.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step17/linearityFlatPairs_0bias.cfg)
 * [step18/flats100\_10fluxes\_SDSSg.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step18/flats100_10fluxes_SDSSg.cfg)
 * [step18/flats100\_10fluxes\_SDSSi.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/step18/flats100_10fluxes_SDSSi.cfg)
