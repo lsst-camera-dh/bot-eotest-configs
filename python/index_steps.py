@@ -7,7 +7,7 @@ import glob
 outfile = '../Run5/README.md'
 link_root = 'https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run5/'
 
-files = glob.glob('../Run5/*/*.cfg') 
+files = glob.glob('../Run5/*/*.cfg') + glob.glob('../Run5/*/*/*.cfg')
 files.sort()
 
 f = open(outfile,'w')
