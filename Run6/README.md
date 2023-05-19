@@ -8,6 +8,7 @@
 * [step03/C\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step03/C_protocol.cfg)
 * [step03/D\_protocol.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step03/D_protocol.cfg)
 * [step04/stabilityFlats.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step04/stabilityFlats.cfg)
+* [step05/linearityFlatPairs.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step05/linearityFlatPairs.cfg)
 * [step08/step8\_test2\_configs/gband\_step8\_202305101345\_test2.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step08/step8_test2_configs/gband_step8_202305101345_test2.cfg)
 * [step08/step8\_test2\_configs/iband\_step8\_202305101345\_test2.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step08/step8_test2_configs/iband_step8_202305101345_test2.cfg)
 * [step08/step8\_test2\_configs/rband\_step8\_202305100154\_test2.cfg](https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/step08/step8_test2_configs/rband_step8_202305100154_test2.cfg)
