@@ -1,0 +1,150 @@
+alignment: transform_edit.dump
+alignment: transform_edit.dump
+[ACQUIRE]
+shots_000
+
+CCOBBCAM
+CCOBBPOS
+CCOBUCAM
+CCOBUPOS
+CCOBXCAM
+CCOBXPOS
+CCOBYCAM
+CCOBYPOS
+CCOB_L1S1_separation
+CCOB_inc
+CCOB_pos_x
+CCOB_pos_y
+FP_inc
+FP_pos_x
+FP_pos_y
+FS1_inc
+FS1_pos_x
+FS1_pos_y
+FS2_inc
+FS2_pos_x
+FS2_pos_y
+L1S1_inc
+L1S1_pos_x
+L1S1_pos_y
+L1S2_inc
+L1S2_pos_x
+L1S2_pos_y
+L2S1_inc
+L2S1_pos_x
+L2S1_pos_y
+L2S2_inc
+L2S2_pos_x
+L2S2_pos_y
+L3S1_inc
+L3S1_pos_x
+L3S1_pos_y
+L3S2_inc
+L3S2_pos_x
+L3S2_pos_y
+best
+expose
+exptime
+filter
+id
+lambda
+plan_pd_current
+rebs
+sens
+target_phot_per_pix
+total_phots
+CATKW101	Float	${CCOBBCAM}	Camera coordinate value for carriage axis B of CCOB-Narrow projector [deg]
+CATKW102	Float	${CCOBBPOS}	Motor (hardware) coordinate value for carriage axis B of CCOB-Narrow projector [deg]
+CATKW103	Float	${CCOBUCAM}	Camera coordinate value for carriage axis U of CCOB-Narrow projector [deg]
+CATKW104	Float	${CCOBUPOS}	Motor (hardware) coordinate value for carriage axis U of CCOB-Narrow projector [deg]
+CATKW105	Float	${CCOBXCAM}	Camera coordinate value for carriage axis X of CCOB-Narrow projector [mm]
+CATKW106	Float	${CCOBXPOS}	Motor (hardware) coordinate value for carriage axis X of CCOB-Narrow projector [mm]
+CATKW107	Float	${CCOBYCAM}	Camera coordinate value for carriage axis Y of CCOB-Narrow projector [mm]
+CATKW108	Float	${CCOBYPOS}	Motor (hardware) coordinate value for carriage axis Y of CCOB-Narrow projector [mm]
+CATKW109	Float	${CCOB_L1S1_separation}	Local separation between CCOB Carriage plane and Camera L1S1 plane
+CATKW10A	Float	${CCOB_inc}	Incidence angle of beam surface CCOB [deg]
+CATKW10B	Float	${CCOB_pos_x}	Camera Coordinate System x coordinate of beam at surface CCOB [mm]
+CATKW10C	Float	${CCOB_pos_y}	Camera Coordinate System y coordinate of beam at surface CCOB [mm]
+CATKW10D	Float	${FP_inc}	Incidence angle of beam surface FP [deg]
+CATKW10E	Float	${FP_pos_x}	Camera Coordinate System x coordinate of beam at surface FP [mm]
+CATKW10F	Float	${FP_pos_y}	Camera Coordinate System y coordinate of beam at surface FP [mm]
+CATKW110	Float	${FS1_inc}	Incidence angle of beam surface FS1 [deg]
+CATKW111	Float	${FS1_pos_x}	Camera Coordinate System x coordinate of beam at surface FS1 [mm]
+CATKW112	Float	${FS1_pos_y}	Camera Coordinate System y coordinate of beam at surface FS1 [mm]
+CATKW113	Float	${FS2_inc}	Incidence angle of beam surface FS2 [deg]
+CATKW114	Float	${FS2_pos_x}	Camera Coordinate System x coordinate of beam at surface FS2 [mm]
+CATKW115	Float	${FS2_pos_y}	Camera Coordinate System y coordinate of beam at surface FS2 [mm]
+CATKW116	Float	${L1S1_inc}	Incidence angle of beam surface L1S1 [deg]
+CATKW117	Float	${L1S1_pos_x}	Camera Coordinate System x coordinate of beam at surface L1S1 [mm]
+CATKW118	Float	${L1S1_pos_y}	Camera Coordinate System y coordinate of beam at surface L1S1 [mm]
+CATKW119	Float	${L1S2_inc}	Incidence angle of beam surface L1S2 [deg]
+CATKW11A	Float	${L1S2_pos_x}	Camera Coordinate System x coordinate of beam at surface L1S2 [mm]
+CATKW11B	Float	${L1S2_pos_y}	Camera Coordinate System y coordinate of beam at surface L1S2 [mm]
+CATKW11C	Float	${L2S1_inc}	Incidence angle of beam surface L2S1 [deg]
+CATKW11D	Float	${L2S1_pos_x}	Camera Coordinate System x coordinate of beam at surface L2S1 [mm]
+CATKW11E	Float	${L2S1_pos_y}	Camera Coordinate System y coordinate of beam at surface L2S1 [mm]
+CATKW11F	Float	${L2S2_inc}	Incidence angle of beam surface L2S2 [deg]
+CATKW120	Float	${L2S2_pos_x}	Camera Coordinate System x coordinate of beam at surface L2S2 [mm]
+CATKW121	Float	${L2S2_pos_y}	Camera Coordinate System y coordinate of beam at surface L2S2 [mm]
+CATKW122	Float	${L3S1_inc}	Incidence angle of beam surface L3S1 [deg]
+CATKW123	Float	${L3S1_pos_x}	Camera Coordinate System x coordinate of beam at surface L3S1 [mm]
+CATKW124	Float	${L3S1_pos_y}	Camera Coordinate System y coordinate of beam at surface L3S1 [mm]
+CATKW125	Float	${L3S2_inc}	Incidence angle of beam surface L3S2 [deg]
+CATKW126	Float	${L3S2_pos_x}	Camera Coordinate System x coordinate of beam at surface L3S2 [mm]
+CATKW127	Float	${L3S2_pos_y}	Camera Coordinate System y coordinate of beam at surface L3S2 [mm]
+CATKW128	Float	${best}	Convergence test between target and raytraced position at focal plane for plan [mm]
+CATKW129	Float	${expose}	High speed shutter requested open time [sec]
+CATKW12A	Float	${exptime}	Requested focal plane exposure time [sec]
+CATKW12B	String	${filter}	Filter optic model used for computing this CCOB beam pointing [ugrizy,none]
+CATKW12C	String	${id}	Unique CCOB-narrow exposure catalog entry ID number for registration [hex]
+CATKW12D	Float	${lambda}	Hyperchromator setting for wavelength output [nm]
+CATKW12E	Float	${plan_pd_current}	Photodiode current used in estimating shutter time (may be different from actual due to aperture adjustment or lamp condition [nA]
+CATKW12F	String	${rebs}	REB combination list requested for readout and image handling []
+CATKW130	String	${sens}	Sensor address used in computing target for this CCOB beam pointing, [Rij_Skl[_Cmn]]
+CATKW131	Float	${target_phot_per_pix}	Target photon level target for this exposure's flat top section of CCOB-narrow beam - cf. local calibration file vs. plan file [inc.phot/pixel]
+CATKW132	Float	${total_phots}	Target total photons approaching focal plane for this exposure - cf. local calibration file vs. plan file [photons]
+[SHOTS_000]	# defines
+ACQTYPE		= 		ccob_narrow	# ccob narrow acquisition
+SHOTBIASES	= 		0		# biases acquired after each CCOB-Narrow exposure (n_image)
+SHOTDARKS	= 		5.00 0		# darks acquired after each CCOB-Narrow exposure (integ_time, n_image)
+CAMERASHUTTER	=		OPEN		# (NORMAL | OPEN) NORMAL = opens at acq start, closes at end; OPEN = remains open before clear & integrate, does not close before end.
+# calibrate before first shot and after last shot
+# calibration files will be associated with first and last obsid
+CALIBRATE_WAVELENGTH	= 	600.000
+CALIBRATE_DURATION	= 	0.2
+
+# control list - 8 items: (CCOBBPOS CCOBUPOS CCOBXPOS CCOBYPOS INTEG_TIME expose_time lambda rebs); identifier list - 1 item: (id)
+SHOTS	= 	1.0000 0.0000 964.1356 807.0881 5 0.520 600.000 R22/Reb1 0xc0043000,
+		1.0000 0.0000 964.1356 801.9601 5 0.520 600.000 R22/Reb1 0xc0043100,
+		1.0000 0.0000 964.1356 796.8321 5 0.520 600.000 R22/Reb1 0xc0043200,
+		1.0000 0.0000 964.1356 791.7040 5 0.520 600.000 R22/Reb1 0xc0043300,
+		1.0000 0.0000 964.1356 786.5760 5 0.520 600.000 R22/Reb1 0xc0043400,
+		1.0000 0.0000 964.1357 781.4479 5 0.520 600.000 R22/Reb1 0xc0043500,
+		1.0000 0.0000 964.1357 776.3199 5 0.520 600.000 R22/Reb1 0xc0043600,
+		1.0000 0.0000 964.1357 771.1920 5 0.520 600.000 R22/Reb1 0xc0043700,
+		1.0000 0.0000 944.0843 807.0879 5 0.520 600.000 R22/Reb1 0xc0043800,
+		1.0000 0.0000 944.0843 801.9600 5 0.520 600.000 R22/Reb1 0xc0043900,
+		1.0000 0.0000 944.0843 796.8320 5 0.520 600.000 R22/Reb1 0xc0043a00,
+		1.0000 0.0000 944.0844 791.7040 5 0.520 600.000 R22/Reb1 0xc0043b00,
+		1.0000 0.0000 944.0843 786.5760 5 0.520 600.000 R22/Reb1 0xc0043c00,
+		1.0000 0.0000 944.0843 781.4479 5 0.520 600.000 R22/Reb1 0xc0043d00,
+		1.0000 0.0000 944.0844 776.3200 5 0.520 600.000 R22/Reb1 0xc0043e00,
+		1.0000 0.0000 944.0844 771.1919 5 0.520 600.000 R22/Reb1 0xc0043f00
+
+HEADERS	= 	CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0256 CCOBXPOS=964.1356 CCOBYCAM=-17.9481 CCOBYPOS=807.0881 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0910 FP_pos_x=-10.0100 FP_pos_y=-17.9200 L1S1_inc=0.4171 L1S1_pos_x=-10.0256 L1S1_pos_y=-17.9480 L1S2_inc=0.1478 L1S2_pos_x=-9.9339 L1S2_pos_y=-17.7837 L2S1_inc=0.0847 L2S1_pos_x=-9.6365 L2S1_pos_y=-17.2513 L2S2_inc=0.5673 L2S2_pos_x=-9.6216 L2S2_pos_y=-17.2247 L3S1_inc=0.4929 L3S1_pos_x=-10.0500 L3S1_pos_y=-17.9917 L3S2_inc=0.1793 L3S2_pos_x=-10.0323 L3S2_pos_y=-17.9600 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043000 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C00 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0256 CCOBXPOS=964.1356 CCOBYCAM=-12.8201 CCOBYPOS=801.9601 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0721 FP_pos_x=-10.0100 FP_pos_y=-12.8000 L1S1_inc=0.3302 L1S1_pos_x=-10.0256 L1S1_pos_y=-12.8200 L1S2_inc=0.1170 L1S2_pos_x=-9.9339 L1S2_pos_y=-12.7027 L2S1_inc=0.0670 L2S1_pos_x=-9.6364 L2S1_pos_y=-12.3223 L2S2_inc=0.4491 L2S2_pos_x=-9.6216 L2S2_pos_y=-12.3033 L3S1_inc=0.3902 L3S1_pos_x=-10.0500 L3S1_pos_y=-12.8512 L3S2_inc=0.1419 L3S2_pos_x=-10.0323 L3S2_pos_y=-12.8286 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043100 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C01 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0256 CCOBXPOS=964.1356 CCOBYCAM=-7.6921 CCOBYPOS=796.8321 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0560 FP_pos_x=-10.0100 FP_pos_y=-7.6800 L1S1_inc=0.2564 L1S1_pos_x=-10.0256 L1S1_pos_y=-7.6920 L1S2_inc=0.0908 L1S2_pos_x=-9.9339 L1S2_pos_y=-7.6216 L2S1_inc=0.0521 L2S1_pos_x=-9.6364 L2S1_pos_y=-7.3934 L2S2_inc=0.3487 L2S2_pos_x=-9.6216 L2S2_pos_y=-7.3820 L3S1_inc=0.3030 L3S1_pos_x=-10.0500 L3S1_pos_y=-7.7107 L3S2_inc=0.1102 L3S2_pos_x=-10.0323 L3S2_pos_y=-7.6971 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043200 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C02 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0256 CCOBXPOS=964.1356 CCOBYCAM=-2.564 CCOBYPOS=791.7040 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0458 FP_pos_x=-10.0100 FP_pos_y=-2.5600 L1S1_inc=0.2100 L1S1_pos_x=-10.0256 L1S1_pos_y=-2.5640 L1S2_inc=0.0744 L1S2_pos_x=-9.9339 L1S2_pos_y=-2.5405 L2S1_inc=0.0426 L2S1_pos_x=-9.6364 L2S1_pos_y=-2.4645 L2S2_inc=0.2856 L2S2_pos_x=-9.6216 L2S2_pos_y=-2.4607 L3S1_inc=0.2481 L3S1_pos_x=-10.0500 L3S1_pos_y=-2.5702 L3S2_inc=0.0902 L3S2_pos_x=-10.0323 L3S2_pos_y=-2.5657 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043300 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C03 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0256 CCOBXPOS=964.1356 CCOBYCAM=2.564 CCOBYPOS=786.5760 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0458 FP_pos_x=-10.0100 FP_pos_y=2.5600 L1S1_inc=0.2100 L1S1_pos_x=-10.0256 L1S1_pos_y=2.5640 L1S2_inc=0.0744 L1S2_pos_x=-9.9339 L1S2_pos_y=2.5405 L2S1_inc=0.0426 L2S1_pos_x=-9.6364 L2S1_pos_y=2.4645 L2S2_inc=0.2856 L2S2_pos_x=-9.6216 L2S2_pos_y=2.4607 L3S1_inc=0.2481 L3S1_pos_x=-10.0500 L3S1_pos_y=2.5702 L3S2_inc=0.0902 L3S2_pos_x=-10.0323 L3S2_pos_y=2.5657 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043400 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C04 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0257 CCOBXPOS=964.1357 CCOBYCAM=7.6921 CCOBYPOS=781.4479 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0560 FP_pos_x=-10.0100 FP_pos_y=7.6800 L1S1_inc=0.2564 L1S1_pos_x=-10.0256 L1S1_pos_y=7.6920 L1S2_inc=0.0908 L1S2_pos_x=-9.9339 L1S2_pos_y=7.6216 L2S1_inc=0.0521 L2S1_pos_x=-9.6364 L2S1_pos_y=7.3934 L2S2_inc=0.3487 L2S2_pos_x=-9.6216 L2S2_pos_y=7.3820 L3S1_inc=0.3030 L3S1_pos_x=-10.0500 L3S1_pos_y=7.7107 L3S2_inc=0.1102 L3S2_pos_x=-10.0323 L3S2_pos_y=7.6971 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043500 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C05 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0257 CCOBXPOS=964.1357 CCOBYCAM=12.8201 CCOBYPOS=776.3199 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0721 FP_pos_x=-10.0100 FP_pos_y=12.8000 L1S1_inc=0.3302 L1S1_pos_x=-10.0256 L1S1_pos_y=12.8200 L1S2_inc=0.1170 L1S2_pos_x=-9.9339 L1S2_pos_y=12.7027 L2S1_inc=0.0670 L2S1_pos_x=-9.6364 L2S1_pos_y=12.3223 L2S2_inc=0.4491 L2S2_pos_x=-9.6216 L2S2_pos_y=12.3033 L3S1_inc=0.3902 L3S1_pos_x=-10.0500 L3S1_pos_y=12.8512 L3S2_inc=0.1419 L3S2_pos_x=-10.0323 L3S2_pos_y=12.8286 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043600 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C06 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=-10.0257 CCOBXPOS=964.1357 CCOBYCAM=17.948 CCOBYPOS=771.1920 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0910 FP_pos_x=-10.0100 FP_pos_y=17.9200 L1S1_inc=0.4171 L1S1_pos_x=-10.0256 L1S1_pos_y=17.9480 L1S2_inc=0.1478 L1S2_pos_x=-9.9339 L1S2_pos_y=17.7837 L2S1_inc=0.0847 L2S1_pos_x=-9.6365 L2S1_pos_y=17.2513 L2S2_inc=0.5673 L2S2_pos_x=-9.6216 L2S2_pos_y=17.2247 L3S1_inc=0.4929 L3S1_pos_x=-10.0500 L3S1_pos_y=17.9917 L3S2_inc=0.1793 L3S2_pos_x=-10.0323 L3S2_pos_y=17.9600 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043700 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C07 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0257 CCOBXPOS=944.0843 CCOBYCAM=-17.9479 CCOBYPOS=807.0879 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0910 FP_pos_x=10.0100 FP_pos_y=-17.9200 L1S1_inc=0.4171 L1S1_pos_x=10.0256 L1S1_pos_y=-17.9480 L1S2_inc=0.1478 L1S2_pos_x=9.9339 L1S2_pos_y=-17.7837 L2S1_inc=0.0847 L2S1_pos_x=9.6365 L2S1_pos_y=-17.2513 L2S2_inc=0.5673 L2S2_pos_x=9.6216 L2S2_pos_y=-17.2247 L3S1_inc=0.4929 L3S1_pos_x=10.0500 L3S1_pos_y=-17.9917 L3S2_inc=0.1793 L3S2_pos_x=10.0323 L3S2_pos_y=-17.9600 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043800 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C10 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0257 CCOBXPOS=944.0843 CCOBYCAM=-12.82 CCOBYPOS=801.9600 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0721 FP_pos_x=10.0100 FP_pos_y=-12.8000 L1S1_inc=0.3302 L1S1_pos_x=10.0256 L1S1_pos_y=-12.8200 L1S2_inc=0.1170 L1S2_pos_x=9.9339 L1S2_pos_y=-12.7027 L2S1_inc=0.0670 L2S1_pos_x=9.6364 L2S1_pos_y=-12.3223 L2S2_inc=0.4491 L2S2_pos_x=9.6216 L2S2_pos_y=-12.3033 L3S1_inc=0.3902 L3S1_pos_x=10.0500 L3S1_pos_y=-12.8512 L3S2_inc=0.1419 L3S2_pos_x=10.0323 L3S2_pos_y=-12.8286 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043900 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C11 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0257 CCOBXPOS=944.0843 CCOBYCAM=-7.692 CCOBYPOS=796.8320 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0560 FP_pos_x=10.0100 FP_pos_y=-7.6800 L1S1_inc=0.2564 L1S1_pos_x=10.0256 L1S1_pos_y=-7.6920 L1S2_inc=0.0908 L1S2_pos_x=9.9339 L1S2_pos_y=-7.6216 L2S1_inc=0.0521 L2S1_pos_x=9.6364 L2S1_pos_y=-7.3934 L2S2_inc=0.3487 L2S2_pos_x=9.6216 L2S2_pos_y=-7.3820 L3S1_inc=0.3030 L3S1_pos_x=10.0500 L3S1_pos_y=-7.7107 L3S2_inc=0.1102 L3S2_pos_x=10.0323 L3S2_pos_y=-7.6971 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043a00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C12 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0256 CCOBXPOS=944.0844 CCOBYCAM=-2.564 CCOBYPOS=791.7040 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0458 FP_pos_x=10.0100 FP_pos_y=-2.5600 L1S1_inc=0.2100 L1S1_pos_x=10.0256 L1S1_pos_y=-2.5640 L1S2_inc=0.0744 L1S2_pos_x=9.9339 L1S2_pos_y=-2.5405 L2S1_inc=0.0426 L2S1_pos_x=9.6364 L2S1_pos_y=-2.4645 L2S2_inc=0.2856 L2S2_pos_x=9.6216 L2S2_pos_y=-2.4607 L3S1_inc=0.2481 L3S1_pos_x=10.0500 L3S1_pos_y=-2.5702 L3S2_inc=0.0902 L3S2_pos_x=10.0323 L3S2_pos_y=-2.5657 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043b00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C13 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0257 CCOBXPOS=944.0843 CCOBYCAM=2.564 CCOBYPOS=786.5760 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0458 FP_pos_x=10.0100 FP_pos_y=2.5600 L1S1_inc=0.2100 L1S1_pos_x=10.0256 L1S1_pos_y=2.5640 L1S2_inc=0.0744 L1S2_pos_x=9.9339 L1S2_pos_y=2.5405 L2S1_inc=0.0426 L2S1_pos_x=9.6364 L2S1_pos_y=2.4645 L2S2_inc=0.2856 L2S2_pos_x=9.6216 L2S2_pos_y=2.4607 L3S1_inc=0.2481 L3S1_pos_x=10.0500 L3S1_pos_y=2.5702 L3S2_inc=0.0902 L3S2_pos_x=10.0323 L3S2_pos_y=2.5657 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043c00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C14 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0257 CCOBXPOS=944.0843 CCOBYCAM=7.6921 CCOBYPOS=781.4479 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0560 FP_pos_x=10.0100 FP_pos_y=7.6800 L1S1_inc=0.2564 L1S1_pos_x=10.0256 L1S1_pos_y=7.6920 L1S2_inc=0.0908 L1S2_pos_x=9.9339 L1S2_pos_y=7.6216 L2S1_inc=0.0521 L2S1_pos_x=9.6364 L2S1_pos_y=7.3934 L2S2_inc=0.3487 L2S2_pos_x=9.6216 L2S2_pos_y=7.3820 L3S1_inc=0.3030 L3S1_pos_x=10.0500 L3S1_pos_y=7.7107 L3S2_inc=0.1102 L3S2_pos_x=10.0323 L3S2_pos_y=7.6971 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043d00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C15 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0256 CCOBXPOS=944.0844 CCOBYCAM=12.82 CCOBYPOS=776.3200 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0721 FP_pos_x=10.0100 FP_pos_y=12.8000 L1S1_inc=0.3302 L1S1_pos_x=10.0256 L1S1_pos_y=12.8200 L1S2_inc=0.1170 L1S2_pos_x=9.9339 L1S2_pos_y=12.7027 L2S1_inc=0.0670 L2S1_pos_x=9.6364 L2S1_pos_y=12.3223 L2S2_inc=0.4491 L2S2_pos_x=9.6216 L2S2_pos_y=12.3033 L3S1_inc=0.3902 L3S1_pos_x=10.0500 L3S1_pos_y=12.8512 L3S2_inc=0.1419 L3S2_pos_x=10.0323 L3S2_pos_y=12.8286 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043e00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C16 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09,
+		CCOBBCAM=0.0000 CCOBBPOS=1.0000 CCOBUCAM=0.0000 CCOBUPOS=0.0000 CCOBXCAM=10.0256 CCOBXPOS=944.0844 CCOBYCAM=17.9481 CCOBYPOS=771.1919 CCOB_L1S1_separation=100 CCOB_inc=0.0000 FP_inc=0.0910 FP_pos_x=10.0100 FP_pos_y=17.9200 L1S1_inc=0.4171 L1S1_pos_x=10.0256 L1S1_pos_y=17.9480 L1S2_inc=0.1478 L1S2_pos_x=9.9339 L1S2_pos_y=17.7837 L2S1_inc=0.0847 L2S1_pos_x=9.6365 L2S1_pos_y=17.2513 L2S2_inc=0.5673 L2S2_pos_x=9.6216 L2S2_pos_y=17.2247 L3S1_inc=0.4929 L3S1_pos_x=10.0500 L3S1_pos_y=17.9917 L3S2_inc=0.1793 L3S2_pos_x=10.0323 L3S2_pos_y=17.9600 best=0.0000 expose=0.520 exptime=5 filter=none id=0xc0043f00 lambda=600.000 plan_pd_current=9.0920e-01 rebs=R22/Reb1 sens=R22S11C17 target_phot_per_pix=69986.860331953 total_phots=2.9508e+09
+
