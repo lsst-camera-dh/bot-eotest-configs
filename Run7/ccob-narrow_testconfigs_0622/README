@@ -1,0 +1,32 @@
+config files in this directory come in 2 flavors:
+"nobeamcorr" which should align U stage rotation axis with Camera Coordinate System origin;
+"beamcorr"   which should apply a CCOB XY position correction to the angular error we currently have. Most of this
+             angle error may be corrected by altering POLAR_b0 in the config file filtering scripts so the current
+             scripts provide only a test of the method.
+The following 8 types of scripts are as follows:
+
+bregeon_step0x0a Johan's pointing choices, 27 configs. All sensors read out currently only one signal level. Once alignment is done, will modify to specify multiple signal levels to make ghosting channels more visible.
+calib_step0x01   Stability run reading out R22_S11 at 600nm, 100 images.
+calib_step0x02   QE curve genertion for 2 sensors, R22_S11 and R20_S12. 10nm steps, 350<lambda<1050
+calib_step0x03   flux vs. polar angle 0<B<24deg, 3 wavelengths: 400,550,701nm. 
+calib_step0x04   flux vs. azimuthal angle 1 wavelength: 600nm. 15deg steps.
+calib_step0x05   QE curve genertion for 2 sensors at 18.9deg launch angle, R22_S11 and R20_S12. 10nm steps, 350<lambda<1050
+calib_step0x0a   nominal reflections test but is quite long and not what Johan had intended.
+calib_step0x0f   alignment dataset. should work once the alignment is close, currently target sensors may be missed if either L1S1_CCOB_separation is off or if *beamcorr* files have a sign error.
+
+bregeon_step0x0a_none_band_beamcorr.cfg
+bregeon_step0x0a_none_band_nobeamcorr.cfg
+calib_step0x01_none_band_beamcorr.cfg
+calib_step0x01_none_band_nobeamcorr.cfg
+calib_step0x02_none_band_beamcorr.cfg
+calib_step0x02_none_band_nobeamcorr.cfg
+calib_step0x03_none_band_beamcorr.cfg
+calib_step0x03_none_band_nobeamcorr.cfg
+calib_step0x04_none_band_beamcorr.cfg
+calib_step0x04_none_band_nobeamcorr.cfg
+calib_step0x05_none_band_beamcorr.cfg
+calib_step0x05_none_band_nobeamcorr.cfg
+calib_step0x0a_none_band_beamcorr.cfg
+calib_step0x0a_none_band_nobeamcorr.cfg
+calib_step0x0f_none_band_beamcorr.cfg
+calib_step0x0f_none_band_nobeamcorr.cfg
