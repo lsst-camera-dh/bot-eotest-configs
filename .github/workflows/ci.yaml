@@ -1,0 +1,40 @@
+name: bot-eotest-configs CI
+
+on:
+    push:
+        branches:
+            -master
+
+    pull_request:
+        branches:
+            -master
+
+jobs:
+    build:
+        runs-on: {{ matrix.os }}
+
+        strategy:
+            matrix:
+                os: [ ubuntu-latest ]
+                py: [ "3.11" ]
+                CC: [ gcc ]
+                CXX: [ g++ ]
+
+        defaults:
+            run:
+                shell: bash -l {0}
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Clone the package and checkout the branch
+              shell: bash -l {0}
+              run: |
+                git clone https://github.com/${GITHUB_REPOSITORY}
+                cd bot-eotest-configs
+                git fetch origin ${GITHUB_REF}:TESTING
+                git checkout TESTING
+
+            - name: Run the test script
+              run: |
+                python scripts/cfg_checker.py
