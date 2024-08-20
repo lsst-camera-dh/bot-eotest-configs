@@ -4,8 +4,8 @@
 
 import glob
 
-outfile = '../Run6/README.md'
-link_root = 'https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run6/'
+outfile = '../Run7/README.md'
+link_root = 'https://github.com/lsst-camera-dh/bot-eotest-configs/blob/master/Run7/'
 
 files = glob.glob('../Run6/*/*.cfg') + glob.glob('../Run6/*/*/*.cfg')
 files.sort()
