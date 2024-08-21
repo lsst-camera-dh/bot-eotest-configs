@@ -3,11 +3,11 @@ name: bot-eotest-configs CI
 on:
     push:
         branches:
-            -master
+            - master
 
     pull_request:
         branches:
-            -master
+            - master
 
     workflow_dispatch: null
 
@@ -28,6 +28,10 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
+
+            - name: Install test dependencies
+              run: |
+                pip install numpy
 
             - name: Clone the package and checkout the branch
               shell: bash -l {0}
